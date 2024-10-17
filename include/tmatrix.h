@@ -18,7 +18,7 @@ const int MAX_MATRIX_SIZE = 10000;
 // шаблонный вектор на динамической памяти
 template<typename T>
 class TDynamicVector
-{
+{ {
 protected:
   size_t sz;
   T* pMem;
@@ -249,7 +249,7 @@ public:
       }
       return 1;
   }
-  }
+  
 
   // матрично-скалярные операции
   TDynamicVector<T> operator*(const T& val)
